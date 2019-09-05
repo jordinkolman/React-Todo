@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+html,
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+#root {
+  margin: 0 auto;
+}
+
+.todo-item {
+  cursor: pointer;
+}
+
+.completed {
+  text-decoration: line-through;
+}
+
+form {
+  max-width: 300px;
+}
+
+fieldset {
+  display: flex;
+}
